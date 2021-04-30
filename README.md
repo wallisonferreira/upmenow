@@ -3,11 +3,8 @@
 
 ### Instructions
 1. Clone the repository
-2. Type the command below
-```
-chmod u+x upmenow
-```
-3. upmenow
+2. ```chmod u+x upmenow```
+3. ```upmenow```
   * enter the file name
   * enter the commit message
 4. That's all!
