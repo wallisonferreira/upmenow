@@ -1,0 +1,18 @@
+#!/bin/bash
+# upmenow to repository
+echo "Nome do Arquivo"
+read file
+echo "Mensagem"
+read message
+echo "O que temos de novo aqui?"
+git status
+echo "Adicionando arquivos"
+git add $file
+echo "O que adicionamos"
+git status
+echo "vamos commitar imediatamente"
+git commit -m "$message"
+echo "Subindo ao repositório"
+git push -u origin master
+echo "Pronto!"
+git log
